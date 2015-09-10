@@ -16,10 +16,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Inicio</a>
+                        <a href="index_p.php">Inicio</a>
                     </li>
                     <li>
-                        <a href="about.html">Nosotros</a>
+                        <a href="nosotros.php">Nosotros</a>
                     </li>
                     <li>
                         <a href="blog.html">Cotizaciones</a>
