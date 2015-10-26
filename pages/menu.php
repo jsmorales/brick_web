@@ -22,14 +22,17 @@
                         <a href="nosotros.php">Nosotros</a>
                     </li>
                     <li>
-                        <a href="blog.html">Cotizaciones</a>
+                        <a href="#">Cotizaciones</a>
                     </li>
                     <li>
-                        <a href="blog.html">Catálogo</a>
+                        <a href="#">Catálogo</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contacto</a>
-                    </li>                    
+                        <a href="contacto.php">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="../../brick_web_admin"></span> Log In </a>
+                    </li>                     
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
