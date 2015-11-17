@@ -25,6 +25,13 @@
 			return GenericoDAO::EjecutarConsulta($this->q_general);
 		}
 
+		public function getMateriales1(){
+
+			$this->q_general = "select material.*, clase.nombre as nom_clase FROM `material` INNER JOIN clase ON clase.pkID=material.fkID_clase";				
+			
+			return GenericoDAO::EjecutarConsulta($this->q_general);
+		}
+
 		public function getMaterialId($q_material){						
 			
 			return GenericoDAO::EjecutarConsulta($q_material);

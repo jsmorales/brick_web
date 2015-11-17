@@ -25,7 +25,7 @@
                         <a href="#">Cotizaciones</a>
                     </li>
                     <li>
-                        <a href="#">Catálogo</a>
+                        <a href="catalogo.php">Catálogo</a>
                     </li>
                     <li>
                         <a href="contacto.php">Contacto</a>
