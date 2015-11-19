@@ -173,7 +173,11 @@ footer p {
     .navbar-nav>li>a {
         line-height: normal;
     }
-
+    /*--------------------------*/
+    .nav-modal>li>a {
+        padding: 9px;
+    }
+    /*--------------------------*/
     .navbar-nav {
         display: table;
         float: none;

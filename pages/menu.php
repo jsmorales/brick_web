@@ -22,7 +22,7 @@
                         <a href="nosotros.php">Nosotros</a>
                     </li>
                     <li>
-                        <a href="#">Cotizaciones</a>
+                        <a href="cotizacion.php">Cotizaciones</a>
                     </li>
                     <li>
                         <a href="catalogo.php">Catálogo</a>

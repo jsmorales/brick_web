@@ -36,6 +36,17 @@
 			$this->materialesDAO = new materiales();
 	        return $this->materialesDAO->getUmedida();
 	    }
+
+	    //---------------------------------------------------------------------------------
+	    public function getLadrillos() {
+			$this->materialesDAO = new materiales();
+	        return $this->materialesDAO->getLadrillos();
+	    }
+
+	    public function getCemento() {
+			$this->materialesDAO = new materiales();
+	        return $this->materialesDAO->getCemento();
+	    }
 	}
 
  ?>

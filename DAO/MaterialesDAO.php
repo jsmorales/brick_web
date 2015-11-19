@@ -72,6 +72,21 @@
 			
 			return GenericoDAO::EjecutarConsulta($this->q_general);
 		}
+
+		//---------------------------------------------------------
+		public function getLadrillos(){
+
+			$this->q_general = "select material.*, clase.nombre as nom_clase FROM `material` INNER JOIN clase ON clase.pkID=material.fkID_clase where clase.pkID = 1";				
+			
+			return GenericoDAO::EjecutarConsulta($this->q_general);
+		}
+
+		public function getCemento(){
+
+			$this->q_general = "select material.*, clase.nombre as nom_clase FROM `material` INNER JOIN clase ON clase.pkID=material.fkID_clase where clase.pkID = 2";				
+			
+			return GenericoDAO::EjecutarConsulta($this->q_general);
+		}
 		
 	}
 
