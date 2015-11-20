@@ -1,6 +1,7 @@
 $(function(){
 	console.log('hola desde cont val cotiza');
 
+	/*
 	//------------------------------------------------------------------------------
 	var tipo_user = $("#tipo_user").val();
 	var cedula = $("#cedula_user").val();
@@ -16,7 +17,7 @@ $(function(){
 			$("#autoCliente").attr('readonly', '');
 			$("#fkID_cliente").val(id_user);
 		}
-	}
+	}*/
 
 	function tiempo_sistema(){
 
@@ -63,12 +64,13 @@ $(function(){
 		}
 	});
 
+	/*
 	$("#fecha").attr('readonly', '');
 	$("#fecha").val(tiempo_sistema());
 
 	//------------------------------------------------------------------------------
 	
 	val_user();
-	//tiempo_sistema();
+	//tiempo_sistema();*/
 
 });

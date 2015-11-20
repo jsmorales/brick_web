@@ -25,7 +25,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- iconos -->
+    <link href="../css/iconos/flaticon.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="../css/business-casual.css" rel="stylesheet">   
     
