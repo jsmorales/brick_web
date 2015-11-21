@@ -1,3 +1,14 @@
+<?php 
+
+    include_once '../controller/indexController.php';
+
+    $controladorIndex = new indexController();
+
+    $resultado = $controladorIndex->getDatos();
+
+    //print_r($resultado);  
+
+?>
 <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -10,7 +21,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">La Ferretería X</a>
+                <a class="navbar-brand" href="index.html"><?php echo $resultado[0]["titulo"];?></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
