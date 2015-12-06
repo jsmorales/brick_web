@@ -137,13 +137,18 @@
               </div>
 
               <br>
-              <h4 class="text-center">Total Costo</h4>
-              <hr>
-
-              <div class="input-group">
-                <label for="valor_total" class="input-group-addon">$</label>
-                <input type="number" class="form-control" id="valor_total" name="valor_total" required="true" readonly="">                
-              </div>
+                <h4 class="text-center">Total Costo</h4>
+                <hr>
+                
+                <label id="total_iva" class=""></label>
+                <br><br>
+                <label id="total_costo" class=""></label>
+                <br><br>
+                <label id="" class="">Total IVA Incluido</label>
+                <div class="input-group">
+                  <label for="valor_total" class="input-group-addon">$</label>
+                  <input type="number" class="form-control" id="valor_total" name="valor_total" required="true" readonly="">                
+                </div>
 
             </div>                  
           <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
